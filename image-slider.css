@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/* Arxaplan */
+
+body{
+	  background: linear-gradient(to right, #4ecdc4, #556270);
+}
+
+/* CSS dəyişəni */
+
+:root{
+	--colorE:#84ad8f;
+}
+
+/* Ümumi konteyner */
+
+.general-container{
+	top:25px;
+	width:60%;
+	margin:auto;
+	border:3px solid black;
+	border-radius:20px;
+	overflow:hidden;
+	position:relative;
+}
+
+/* Şəkil konteyneri */
+
+.image-slide{
+	display:flex;
+	width:100%;
+	height:600px;
+}
+
+/* Əvvəlki şəkilə qayıt butonu */
+
+#prevBtn{
+	position:absolute;
+	top: 50%;
+	z-index:10;
+	left: 5%;
+	font-size:30px;
+	color:white;
+	cursor:pointer;
+	transition:0.2s;
+}
+
+#prevBtn:hover{
+	color:var(--colorE);
+}
+
+/* Sonrakı şəkilə keç butonu */
+
+#nextBtn{
+	position:absolute;
+	top: 50%;
+	z-index:10;
+	right: 5%;
+	font-size:30px;
+	color:white;
+	cursor:pointer;
+	transition:0.2s;
+}
+
+#nextBtn:hover{
+	color:var(--colorE);
+}
+
